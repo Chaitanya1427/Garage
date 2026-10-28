@@ -1,0 +1,2 @@
+# Cloudflare Pages SPA rewrite rule for dynamic CMS blog posts
+/blog/*  /blog  200
