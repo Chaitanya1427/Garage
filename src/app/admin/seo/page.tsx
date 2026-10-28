@@ -9,7 +9,7 @@ const PAGE_OPTIONS = [
   { path: "/", label: "Homepage (/)" },
   { path: "/services", label: "Services Listing (/services)" },
   { path: "/about", label: "About Us (/about)" },
-  { path: "/locations", label: "Locations & Porvorim Map (/locations)" },
+  { path: "/resources", label: "Technical Resources & Guides (/resources)" },
   { path: "/contact", label: "Contact & Tech Support (/contact)" },
   { path: "/blog", label: "Technical Blog (/blog)" },
   { path: "/faq", label: "FAQ Page (/faq)" },
@@ -32,10 +32,10 @@ const DEFAULT_SEO: Record<string, { title: string; desc: string; keywords: strin
     desc: "Founded in 2018, RoadCrafters Garage combines master craftsmanship with state-of-the-art diagnostic technology for high-performance machines.",
     keywords: "About RoadCrafters, machine technicians Porvorim, machine garage Goa",
   },
-  "/locations": {
-    title: "Garage Location & Address | RoadCrafters Porvorim Goa",
-    desc: "Visit RoadCrafters Garage at Bay 9, Alcon Regency, near Nexa Showroom, Defence Colony, Porvorim, Goa 403521. Call +91 86684 12375.",
-    keywords: "RoadCrafters address, Porvorim machine garage, Defence Colony Goa machine repair",
+  "/resources": {
+    title: "Machine Engineering Resources & Specifications | RoadCrafters Garage",
+    desc: "Factory-calibrated maintenance intervals, cold tyre pressure standards, interactive 32-point pre-ride checklist, and OBD diagnostic guides.",
+    keywords: "Machine maintenance schedule, tyre pressure chart, motorcycle pre-ride checklist, OBD fault codes Goa",
   },
   "/contact": {
     title: "Contact Technical Support & Appointments | RoadCrafters Garage",

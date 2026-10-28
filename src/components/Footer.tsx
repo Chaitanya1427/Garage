@@ -156,8 +156,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/locations" className="hover:text-[#C5A059] transition-colors">
-                  Locations
+                <Link href="/resources" className="hover:text-[#C5A059] transition-colors">
+                  Resources
                 </Link>
               </li>
               <li>
