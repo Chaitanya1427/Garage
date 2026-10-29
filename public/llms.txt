@@ -1,0 +1,27 @@
+# RoadCrafters Garage (रोडक्राफ्टर्स गराज)
+
+> Flagship garage and diagnostic atelier for high-performance machines and superbikes in Porvorim, Goa.
+
+RoadCrafters Garage is a top-rated (5.0★) independent mechanical atelier and computerized diagnostic facility located in Porvorim, Goa. Built on a rider-first philosophy, the garage delivers factory-grade mechanical servicing, computerized OBD-II telemetry diagnostics, Brembo braking overhauls, Motul 100% synthetic fluid services, and precision suspension tuning.
+
+## Core Services & Capabilities
+- [Periodic Maintenance Service](/services/periodic-service): Comprehensive factory-scheduled servicing with Motul 300V/7100 ester synthetic fluids, OEM filters, and 32-point rider safety checklist.
+- [Machine Engine Diagnostics](/services/engine-diagnostics): Computer OBD diagnostic scanning, EFI throttle telemetry, live sensor sweep, and fault code clearance.
+- [Brake System & Caliper Service](/services/brake-service): Complete hydraulic brake system overhaul, Brembo/Nissin pad installation, rotor thickness verification, and DOT 4/5.1 pressure bleed.
+- [Chain & Sprocket Maintenance](/services/chain-sprocket): Ultrasonic degreasing, laser rear axle alignment, stretch measurement, and high-tack synthetic lubrication.
+- [Suspension Overhaul](/services/suspension-service): Telescopic & inverted USD fork seal replacement, damping fluid refresh, and rider sag setup.
+- [Tyres & Wheel Balancing](/services/tyres-wheels): Precision scratch-free tire mounting, dynamic spindle balancing, and spoke truing.
+- [Atelier Detailing & Ceramic Protection](/services/bike-detailing): Deep snow foam wash, multi-stage machine paint correction, and 9H nano-ceramic coatings.
+
+## Technical Resources & Specifications
+- Maintenance Schedules: 1,000 km (break-in), 4,000 km (periodic), 8,000 km (mid-cycle), 15,000 km (chassis/suspension overhaul)
+- Cold Tyre Pressure Baselines: Solo Street (29/33 PSI), Track/Supersport (32/36 PSI), Two-Up Touring (33/41 PSI)
+- Drive Chain Slack Standard: 25mm – 35mm free-play
+- Minimum Brake Pad Wear Limit: 1.5mm friction material
+
+## Contact & Location
+- Address: Bay 9, Alcon Regency, Village Panchayat Socorro, near Nexa Showroom, Defence Colony, Porvorim, Goa 403521, India
+- Hours: Monday – Sunday: 08:00 AM – 10:00 PM IST
+- Phone: +91 86684 12375
+- WhatsApp: +91 86684 12375
+- Website: https://roadcraftersgarage.com

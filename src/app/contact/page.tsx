@@ -9,7 +9,7 @@ import { api } from "../../../convex/_generated/api";
 export default function ContactPage() {
   const dbBusiness = useQuery(api.content.getByKey, { key: "businessDetails" });
 
-  let name = "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)";
+  let name = "RoadCrafters Garage (रोडक्राफ्टर्स गराज)";
   let phone = "+91 86684 12375";
   let whatsapp = "+918668412375";
   let hours = "Open — Closes at 10:00 PM";

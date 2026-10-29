@@ -7,7 +7,7 @@ import { api } from "../../../../convex/_generated/api";
 import { SERVICES_DATA, REVIEWS_DATA, PACKAGES_DATA, SPARE_PARTS_DATA } from "@/data/content";
 
 const DEFAULT_BUSINESS_INFO = {
-  name: "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)",
+  name: "RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
   phone: "+91 86684 12375",
   whatsapp: "+918668412375",
   hours: "Open — Closes at 10:00 PM",
@@ -486,7 +486,7 @@ export default function AdminContentPage() {
               </label>
               <input
                 type="text"
-                value={business.name || "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)"}
+                value={business.name || "RoadCrafters Garage (रोडक्राफ्टर्स गराज)"}
                 onChange={(e) => setBusiness({ ...business, name: e.target.value })}
                 className="w-full px-4 py-2.5 bg-white border border-[#E2DDD5] text-sm"
               />

@@ -1,13 +1,15 @@
 "use client";
 
-import React from "react";
-import { Star, CheckCircle, MapPin } from "lucide-react";
+import React, { useState } from "react";
+import { Star, CheckCircle, ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import { REVIEWS_DATA } from "@/data/content";
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
+import GoogleReviewPlugin, { GoogleLogo } from "@/components/GoogleReviewPlugin";
 
 export default function ReviewsSection() {
+  const [modalOpen, setModalOpen] = useState(false);
   const dbReviews = useQuery(api.content.getByKey, { key: "reviews" });
 
   let displayReviews = REVIEWS_DATA;
@@ -108,18 +110,26 @@ export default function ReviewsSection() {
           ))}
         </div>
 
-        {/* Footer CTA in Reviews Section */}
-        <div className="text-center pt-4">
-          <a
-            href={`https://maps.google.com/?q=${encodeURIComponent("RoadCrafters Garage, Bay 9, Alcon Regency, Village Panchayat, near Nexa Showroom, Defence Colony, Aradi Socorro, Porvorim, Goa 403521, India")}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center text-xs font-semibold uppercase tracking-wider text-[#1F1B14] hover:text-[#C5A059] border-b border-[#1F1B14] pb-1 transition-colors gap-2"
+        {/* Interactive Reviews Action */}
+        <div className="text-center pt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button
+            type="button"
+            onClick={() => setModalOpen(true)}
+            className="inline-flex items-center space-x-2.5 px-6 py-3 bg-[#1F1B14] hover:bg-[#2C2316] text-[#FAF8F5] text-xs font-semibold uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg hover:scale-[1.02] border border-[#2C2316] cursor-pointer group"
           >
-            <MapPin className="w-4 h-4 text-[#C5A059]" />
-            <span>Read all 55+ Verified Customer Reviews on Google Maps →</span>
-          </a>
+            <div className="w-5 h-5 rounded-full bg-white flex items-center justify-center p-0.5 shadow-sm">
+              <GoogleLogo className="w-3.5 h-3.5" />
+            </div>
+            <span>View All {displayReviews.length}+ Verified Google Reviews</span>
+            <ArrowRight className="w-3.5 h-3.5 text-[#C5A059] group-hover:translate-x-1 transition-transform" />
+          </button>
         </div>
+
+        {/* In-Page Google Review Interactive Modal */}
+        <GoogleReviewPlugin
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+        />
       </div>
     </section>
   );

@@ -17,7 +17,7 @@ export async function generateMetadata({
   const service = SERVICES_DATA.find((s) => s.slug === slug);
   if (!service) return { title: "Service Not Found" };
   return {
-    title: `${service.title} | RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)`,
+    title: `${service.title} | RoadCrafters Garage (रोडक्राफ्टर्स गराज)`,
     description: service.shortDesc,
   };
 }

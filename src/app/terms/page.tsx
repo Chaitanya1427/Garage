@@ -103,7 +103,7 @@ export default function TermsOfServicePage() {
               For legal inquiries or garage service agreement details, contact our management team:
             </p>
             <div className="text-xs bg-[#FAF8F5] p-4 border border-[#E6D7BC] space-y-1 font-mono text-[#1F1B14]">
-              <p>RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) – Garage Management</p>
+              <p>RoadCrafters Garage (रोडक्राफ्टर्स गराज) – Garage Management</p>
               <p>Bay 9, Alcon Regency, Village Panchayat, near Nexa Showroom, Defence Colony, Aradi Socorro, Porvorim, Goa 403521, India</p>
               <p>Email: contact@roadcraftersgarage.com | Phone: +91 86684 12375</p>
             </div>

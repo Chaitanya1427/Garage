@@ -4,7 +4,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { FAQ_DATA } from "@/data/content";
 
 export const metadata = {
-  title: "Frequently Asked Questions | RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)",
+  title: "Frequently Asked Questions | RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
   description:
     "Find answers to common questions regarding machine servicing, appointments, warranty coverage, parts policy, and diagnostic costs.",
 };

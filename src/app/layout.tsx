@@ -14,12 +14,12 @@ const sansFont = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) | Flagship Garage for High-Performance Machines & Diagnostics in Porvorim, Goa",
+  title: "RoadCrafters Garage (रोडक्राफ्टर्स गराज) | Flagship Garage for High-Performance Machines & Diagnostics in Porvorim, Goa",
   description:
-    "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) is a top-rated 5.0★ Flagship Garage for High-Performance Machines in Porvorim, Goa. Meticulous servicing, OBD diagnostics, brake service, chain & sprocket, and suspension overhauls. Located at Bay 9, Alcon Regency, Defence Colony, Porvorim, Goa. Call +91 86684 12375.",
+    "RoadCrafters Garage (रोडक्राफ्टर्स गराज) is a top-rated 5.0★ Flagship Garage for High-Performance Machines in Porvorim, Goa. Meticulous servicing, OBD diagnostics, brake service, chain & sprocket, and suspension overhauls. Located at Bay 9, Alcon Regency, Defence Colony, Porvorim, Goa. Call +91 86684 12375.",
   keywords: [
     "RoadCrafters Garage",
-    "रोडक्राफ्टर्स गैरेज",
+    "रोडक्राफ्टर्स गराज",
     "High-Performance Machine Garage",
     "Machine Service Goa",
     "Porvorim Machine Garage",
@@ -38,7 +38,7 @@ const jsonLdSchema = {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
   "name": "RoadCrafters Garage",
-  "alternateName": "रोडक्राफ्टर्स गैरेज",
+  "alternateName": "रोडक्राफ्टर्स गराज",
   "category": "Flagship Garage for High-Performance Machines",
   "telephone": "+91 86684 12375",
   "address": {

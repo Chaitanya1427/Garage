@@ -4,9 +4,9 @@ import SectionHeading from "@/components/SectionHeading";
 import { ShieldCheck, Phone, Clock, FileCheck } from "lucide-react";
 
 export const metadata = {
-  title: "Book a Machine Service Appointment | RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)",
+  title: "Book a Machine Service Appointment | RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
   description:
-    "Reserve a machine service appointment at RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) in Porvorim, Goa. Call +91 86684 12375.",
+    "Reserve a machine service appointment at RoadCrafters Garage (रोडक्राफ्टर्स गराज) in Porvorim, Goa. Call +91 86684 12375.",
 };
 
 export default function BookPage() {

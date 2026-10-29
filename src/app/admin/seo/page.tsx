@@ -18,7 +18,7 @@ const PAGE_OPTIONS = [
 
 const DEFAULT_SEO: Record<string, { title: string; desc: string; keywords: string }> = {
   "/": {
-    title: "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) | Flagship Machine Garage in Porvorim, Goa",
+    title: "RoadCrafters Garage (रोडक्राफ्टर्स गराज) | Flagship Machine Garage in Porvorim, Goa",
     desc: "RoadCrafters Garage is a top-rated 5.0★ Flagship Machine Garage in Porvorim, Goa. Meticulous servicing, OBD diagnostics, brake service, chain & suspension overhauls.",
     keywords: "RoadCrafters Garage, Machine Garage, Porvorim Garage, Machine Diagnostics Goa",
   },

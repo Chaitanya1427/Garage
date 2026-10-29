@@ -199,7 +199,7 @@ export default function Footer() {
 
         {/* Bottom copyright */}
         <div className="mt-12 pt-8 border-t border-[#2C2316] flex flex-col md:flex-row justify-between items-center text-xs text-[#D4C4A8] gap-4">
-          <p>© {new Date().getFullYear()} RoadCrafters Garage (रोडक्राफ्टर्स गैरेज). All rights reserved.</p>
+          <p>© {new Date().getFullYear()} RoadCrafters Garage (रोडक्राफ्टर्स गराज). All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="/faq" className="hover:text-white">
               FAQ

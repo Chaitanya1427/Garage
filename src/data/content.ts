@@ -373,7 +373,7 @@ export const GARAGE_FEATURES: GarageFeature[] = [
 export const LOCATIONS_DATA: LocationItem[] = [
   {
     id: "porvorim-goa",
-    name: "RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)",
+    name: "RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
     city: "Porvorim, Goa",
     address: "Bay 9, Alcon Regency, Village Panchayat, near Nexa Showroom, Defence Colony, Aradi Socorro, Porvorim, Goa 403521, India",
     phone: "+91 86684 12375",

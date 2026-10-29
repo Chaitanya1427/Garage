@@ -4,9 +4,9 @@ import SectionHeading from "@/components/SectionHeading";
 import { classNamesImages } from "@/data/content";
 
 export const metadata = {
-  title: "About Us | RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)",
+  title: "About Us | RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
   description:
-    "Learn about our heritage, philosophy, factory certifications, and master technicians at RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) in Porvorim, Goa.",
+    "Learn about our heritage, philosophy, factory certifications, and master technicians at RoadCrafters Garage (रोडक्राफ्टर्स गराज) in Porvorim, Goa.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
           Built on Craftsmanship. Driven by Trust.
         </h1>
         <p className="mt-6 text-lg text-[#6E6B65] max-w-3xl leading-relaxed">
-          Established as a rider-first alternative to impersonal main dealer service centres, RoadCrafters Garage (रोडक्राफ्टर्स गैरेज) was built with a clear mandate: deliver uncompromising mechanical craftsmanship, factory-grade machine OBD diagnostics, and transparent pricing without corporate inflation.
+          Established as a rider-first alternative to impersonal main dealer service centres, RoadCrafters Garage (रोडक्राफ्टर्स गराज) was built with a clear mandate: deliver uncompromising mechanical craftsmanship, factory-grade machine OBD diagnostics, and transparent pricing without corporate inflation.
         </p>
       </div>
 

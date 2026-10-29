@@ -4,7 +4,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { GARAGE_FEATURES, classNamesImages } from "@/data/content";
 
 export const metadata = {
-  title: "Inside Our Garage | RoadCrafters Garage (रोडक्राफ्टर्स गैरेज)",
+  title: "Inside Our Garage | RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
   description:
     "Explore our flagship garage for high-performance machines in Porvorim, Goa featuring hydraulic lifts, factory OBD diagnostic rigs, laser chain alignment, and precision detailing bays.",
 };
