@@ -48,7 +48,7 @@ export default function HomePage() {
 
           {/* Subtitle: Centered & Refined with Strong Legibility */}
           <p className="mt-2.5 sm:mt-3 text-xs sm:text-sm text-[#FAF8F5]/90 font-sans leading-relaxed max-w-lg drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)] font-normal">
-            Precision machine servicing, factory OBD diagnostics, hydraulic lift overhauls & genuine OEM spare parts performed by certified master technicians at our flagship garage.
+            Precision bike servicing, factory OBD diagnostics, hydraulic lift overhauls & genuine OEM spare parts performed by certified master technicians at our flagship garage.
           </p>
 
           {/* Centered Action Buttons - Rounded Gold Luxury Pills */}
@@ -71,7 +71,7 @@ export default function HomePage() {
           {/* Subtle Facility Authenticity Tag */}
           <div className="mt-2.5 flex items-center justify-center gap-2 text-[9.5px] uppercase tracking-wider text-[#FAF8F5]/80 drop-shadow">
             <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059] animate-pulse" />
-            <span>Official Brand Crest • High-Performance Machine Atelier • Porvorim, Goa</span>
+            <span>Official Brand Crest • Performance Bike Atelier • Porvorim, Goa</span>
           </div>
         </div>
 
@@ -118,7 +118,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-center p-2 pt-4 md:pt-2">
             <Wrench className="w-5 h-5 text-[#C5A059] mb-1" />
             <span className="font-semibold text-xs text-[#1F1B14]">Rider Focused</span>
-            <span className="text-[11px] text-[#6E6B65]">Master Machine Techs</span>
+            <span className="text-[11px] text-[#6E6B65]">Master Bike Techs</span>
           </div>
           <div className="flex flex-col items-center justify-center p-2 pt-4 md:pt-2">
             <Clock className="w-5 h-5 text-[#C5A059] mb-1" />
@@ -141,13 +141,13 @@ export default function HomePage() {
               <div className="border border-[#2C2316] p-2 bg-[#2C2316]/30">
                 <img
                   src={classNamesImages.diagnostics}
-                  alt="High-Performance Machine Diagnostics Scan"
+                  alt="High-Performance Bike Diagnostics Scan"
                   className="w-full h-[420px] sm:h-[480px] object-cover object-center shadow-2xl"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-[#C5A059] text-white p-6 hidden sm:block max-w-xs shadow-lg">
                 <span className="block text-xs uppercase tracking-widest font-semibold mb-1">
-                  MACHINE OBD SCANNER
+                  BIKE OBD SCANNER
                 </span>
                 <p className="text-xs leading-relaxed">
                   Direct diagnostic interface for Ducati, BMW Motorrad, Triumph, KTM & Japanese OEMs.
@@ -158,15 +158,15 @@ export default function HomePage() {
             {/* Text side */}
             <div className="lg:col-span-6 space-y-6">
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-white leading-tight">
-                High-Performance Machine Diagnostics
+                High-Performance Bike Diagnostics
               </h2>
               <p className="text-base text-[#D4C4A8] leading-relaxed">
-                Find the problem before it becomes an expensive breakdown. Our diagnostic technicians correlate fault codes with live sensor telemetry and fuel injection parameters for your machine.
+                Find the problem before it becomes an expensive breakdown. Our diagnostic technicians correlate fault codes with live sensor telemetry and fuel injection parameters for your bike.
               </p>
 
               <div className="space-y-3 pt-2">
                 {[
-                  "Advanced machine OBD diagnostic scanning equipment",
+                  "Advanced bike OBD diagnostic scanning equipment",
                   "Live parameter logging for fuel injection, O2, & TPS sensors",
                   "Transparent digital inspection report sent to your phone",
                   "Clear itemized recommendations prior to any work"
@@ -183,7 +183,7 @@ export default function HomePage() {
                   href="/book?service=engine-diagnostics"
                   className="inline-flex items-center px-7 py-3.5 bg-[#C5A059] hover:bg-[#D4AF37] text-white text-xs font-semibold uppercase tracking-widest transition-colors"
                 >
-                  Book Machine Diagnostics
+                  Book Bike Diagnostics
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
               </div>
@@ -204,8 +204,8 @@ export default function HomePage() {
           {[
             {
               num: "01",
-              title: "Experienced Machine Technicians",
-              desc: "Certified master technicians with over 10 years of training across street, sport, cruiser, and adventure machine platforms."
+              title: "Experienced Bike Technicians",
+              desc: "Certified master technicians with over 10 years of training across street, sport, cruiser, and adventure bike platforms."
             },
             {
               num: "02",
@@ -215,7 +215,7 @@ export default function HomePage() {
             {
               num: "03",
               title: "100% OEM & JASO MA2 Oils",
-              desc: "We exclusively fit original manufacturer parts and premium ester synthetic oils built specifically for high-performance machine wet clutches."
+              desc: "We exclusively fit original manufacturer parts and premium ester synthetic oils built specifically for high-performance bike wet clutches."
             },
             {
               num: "04",

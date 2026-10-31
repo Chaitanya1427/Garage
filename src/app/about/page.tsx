@@ -18,7 +18,7 @@ export default function AboutPage() {
           Built on Craftsmanship. Driven by Trust.
         </h1>
         <p className="mt-6 text-lg text-[#6E6B65] max-w-3xl leading-relaxed">
-          Established as a rider-first alternative to impersonal main dealer service centres, RoadCrafters Garage (रोडक्राफ्टर्स गराज) was built with a clear mandate: deliver uncompromising mechanical craftsmanship, factory-grade machine OBD diagnostics, and transparent pricing without corporate inflation.
+          Established as a rider-first alternative to impersonal main dealer service centres, RoadCrafters Garage (रोडक्राफ्टर्स गराज) was built with a clear mandate: deliver uncompromising mechanical craftsmanship, factory-grade bike OBD diagnostics, and transparent pricing without corporate inflation.
         </p>
       </div>
 
@@ -30,10 +30,10 @@ export default function AboutPage() {
             title="No Shortcuts. No Guesswork."
           />
           <p className="text-sm text-[#6E6B65] leading-relaxed">
-            Modern high-performance machines are complex integrations of mechanical, hydraulic, and software systems. We believe that proper machine care requires both traditional mechanical empathy and cutting-edge electronic diagnosis.
+            Modern high-performance bikes are complex integrations of mechanical, hydraulic, and software systems. We believe that proper bike care requires both traditional mechanical empathy and cutting-edge electronic diagnosis.
           </p>
           <p className="text-sm text-[#6E6B65] leading-relaxed">
-            Every technician in our garage undergoes continuous training on factory service bulletins, electrical architecture, and precision tool calibration. When you trust us with your machine, you receive clear communication, photographic evidence of all findings, and fixed quotes.
+            Every technician in our garage undergoes continuous training on factory service bulletins, electrical architecture, and precision tool calibration. When you trust us with your bike, you receive clear communication, photographic evidence of all findings, and fixed quotes.
           </p>
 
           <div className="pt-4 grid grid-cols-2 gap-6 border-t border-[#E6D7BC]">
@@ -63,8 +63,8 @@ export default function AboutPage() {
       <div className="bg-[#FAF8F5] border border-[#E6D7BC] p-8 md:p-12">
         <SectionHeading
           eyebrow="MILESTONES"
-          title="Dedicated Machine Service Excellence"
-          subtitle="Our journey building a rider-first machine service center in Porvorim, Goa."
+          title="Dedicated Bike Service Excellence"
+          subtitle="Our journey building a rider-first bike service center in Porvorim, Goa."
         />
 
         <div className="mt-12 space-y-8 relative before:absolute before:inset-0 before:left-3 md:before:left-1/2 before:w-0.5 before:bg-[#E6D7BC]">
@@ -72,12 +72,12 @@ export default function AboutPage() {
             {
               year: "2010",
               title: "Garage Founded",
-              desc: "Established as a specialist independent garage for high-performance machines with dedicated hydraulic lifts."
+              desc: "Established as a specialist independent garage for bikes and superbikes with dedicated hydraulic lifts."
             },
             {
               year: "2014",
               title: "Garage Facility Expansion",
-              desc: "Added laser alignment bays, hydraulic machine lifts, and clean detailing suite."
+              desc: "Added laser alignment bays, hydraulic bike lifts, and clean detailing suite."
             },
             {
               year: "2018",

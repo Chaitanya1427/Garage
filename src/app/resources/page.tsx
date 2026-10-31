@@ -124,7 +124,7 @@ const TECHNICAL_BASELINES = [
     title: "Engine Oil Viscosity Standards",
     metric: "10W-40 / 15W-50",
     status: "JASO MA2 / API SN",
-    desc: "Use only 100% ester synthetic motorcycle oils designed for wet-clutch anti-slippage and high shear stability.",
+    desc: "Use only 100% ester synthetic bike oils designed for wet-clutch anti-slippage and high shear stability.",
     tips: [
       "Never use car engine oils (contain friction modifiers)",
       "Check sight glass with machine vertical on level surface",

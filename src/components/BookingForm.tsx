@@ -64,13 +64,13 @@ export default function BookingForm({ initialServiceSlug }: BookingFormProps) {
     e.preventDefault();
 
     const text = `Hello RoadCrafters Garage! 🛠️
-I would like to book a machine service appointment:
+I would like to book a bike service appointment:
 
 • Name: ${formData.name}
 • Phone: ${formData.phone}
 • Email: ${formData.email || "N/A"}
 • Category: ${formData.bikeCategory}
-• Machine: ${formData.brand} ${formData.model} ${formData.regNumber ? `(${formData.regNumber})` : ""}
+• Bike: ${formData.brand} ${formData.model} ${formData.regNumber ? `(${formData.regNumber})` : ""}
 • Service Requested: ${formData.serviceId}
 • Preferred Date: ${formData.preferredDate || "Earliest available"} (${formData.preferredTime})
 • Transport Pickup: ${formData.pickupDrop}
@@ -91,19 +91,19 @@ Please confirm my lift bay allocation. Thank you!`;
         </div>
         <div className="space-y-2">
           <span className="text-xs uppercase tracking-widest font-semibold text-[#C5A059]">
-            MACHINE APPOINTMENT REQUESTED
+            BIKE APPOINTMENT REQUESTED
           </span>
           <h3 className="font-serif text-3xl text-[#1F1B14] font-medium">
             Thank you, {formData.name || "Valued Rider"}
           </h3>
           <p className="text-sm text-[#6E6B65] max-w-lg mx-auto leading-relaxed">
-            Your appointment request for a <strong className="text-[#1F1B14]">{formData.brand} {formData.model}</strong> has been logged in our scheduling queue. A Road Crafters Technical Advisor will contact you at <strong>{formData.phone}</strong> shortly to confirm lift bay allocation and pickup timing.
+            Your appointment request for a <strong className="text-[#1F1B14]">{formData.brand} {formData.model}</strong> has been logged in our scheduling queue. A RoadCrafters Technical Advisor will contact you at <strong>{formData.phone}</strong> shortly to confirm lift bay allocation and pickup timing.
           </p>
         </div>
 
         <div className="bg-white p-6 text-left max-w-md mx-auto text-xs space-y-2 border border-[#E6D7BC]">
           <div className="flex justify-between">
-            <span className="text-[#6E6B65]">Machine:</span>
+            <span className="text-[#6E6B65]">Bike:</span>
             <span className="font-semibold text-[#1F1B14]">{formData.brand} {formData.model} ({formData.bikeCategory})</span>
           </div>
           <div className="flex justify-between">
@@ -135,7 +135,7 @@ Please confirm my lift bay allocation. Thank you!`;
       {/* Bike Category selection tabs */}
       <div>
         <label className="block text-xs uppercase tracking-wider font-semibold text-[#1F1B14] mb-2">
-          1. Machine Category
+          1. Bike Category
         </label>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           {["Street / Naked", "Sportbike", "Cruiser", "Adventure / Dual"].map((cat) => (
@@ -159,7 +159,7 @@ Please confirm my lift bay allocation. Thank you!`;
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div>
           <label className="block text-xs uppercase tracking-wider font-semibold text-[#1F1B14] mb-1.5">
-            Machine Brand *
+            Bike Brand *
           </label>
           <input
             type="text"

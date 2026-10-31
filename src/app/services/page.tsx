@@ -31,10 +31,10 @@ export default function ServicesPage() {
       {/* Header */}
       <div className="border-b border-[#E6D7BC] pb-8">
         <h1 className="font-serif text-4xl sm:text-5xl font-medium text-[#1F1B14]">
-          Specialized Machine Engineering & Services
+          Specialized Bike Engineering & Services
         </h1>
         <p className="mt-3 text-base text-[#6E6B65] max-w-2xl">
-          Factory-scheduled maintenance, precision machine OBD diagnostics, and mechanical overhauls for all high-performance machines.
+          Factory-scheduled maintenance, precision bike OBD diagnostics, and mechanical overhauls for all bikes and superbikes.
         </p>
       </div>
 
@@ -52,7 +52,7 @@ export default function ServicesPage() {
             Require a custom mechanical diagnostic or restoration quote?
           </h3>
           <p className="text-sm text-[#6E6B65] mt-2">
-            Our technical masters handle precision mechanical refreshes, machine engine diagnostics, and custom setup.
+            Our technical masters handle precision mechanical refreshes, bike engine diagnostics, and custom setup.
           </p>
         </div>
         <Link

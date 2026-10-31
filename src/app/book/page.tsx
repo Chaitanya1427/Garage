@@ -4,9 +4,9 @@ import SectionHeading from "@/components/SectionHeading";
 import { ShieldCheck, Phone, Clock, FileCheck } from "lucide-react";
 
 export const metadata = {
-  title: "Book a Machine Service Appointment | RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
+  title: "Book a Bike Service Appointment | RoadCrafters Garage (रोडक्राफ्टर्स गराज)",
   description:
-    "Reserve a machine service appointment at RoadCrafters Garage (रोडक्राफ्टर्स गराज) in Porvorim, Goa. Call +91 86684 12375.",
+    "Reserve a bike service appointment at RoadCrafters Garage (रोडक्राफ्टर्स गराज) in Porvorim, Goa. Call +91 86684 12375.",
 };
 
 export default function BookPage() {
@@ -15,10 +15,10 @@ export default function BookPage() {
       {/* Header */}
       <div className="border-b border-[#E6D7BC] pb-8">
         <h1 className="font-serif text-4xl sm:text-5xl font-medium text-[#1F1B14]">
-          Book a Machine Service Appointment
+          Book a Bike Service Appointment
         </h1>
         <p className="mt-3 text-base text-[#6E6B65] max-w-2xl">
-          Reserve your machine check-in date. A dedicated RoadCrafters Technical Advisor will review your requirements and confirm your lift bay allocation.
+          Reserve your bike check-in date. A dedicated RoadCrafters Technical Advisor will review your requirements and confirm your lift bay allocation.
         </p>
       </div>
 

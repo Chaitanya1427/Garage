@@ -1,29 +1,22 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConvexClientProvider from "@/components/ConvexClientProvider";
 import MainLayoutWrapper from "@/components/MainLayoutWrapper";
 
-const sansFont = Plus_Jakarta_Sans({
-  variable: "--font-plus-jakarta",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "600", "700"],
-});
-
 export const metadata: Metadata = {
-  title: "RoadCrafters Garage (रोडक्राफ्टर्स गराज) | Flagship Garage for High-Performance Machines & Diagnostics in Porvorim, Goa",
+  title: "RoadCrafters Garage (रोडक्राफ्टर्स गराज) | Flagship Garage for Bikes, Superbikes & Diagnostics in Porvorim, Goa",
   description:
-    "RoadCrafters Garage (रोडक्राफ्टर्स गराज) is a top-rated 5.0★ Flagship Garage for High-Performance Machines in Porvorim, Goa. Meticulous servicing, OBD diagnostics, brake service, chain & sprocket, and suspension overhauls. Located at Bay 9, Alcon Regency, Defence Colony, Porvorim, Goa. Call +91 86684 12375.",
+    "RoadCrafters Garage (रोडक्राफ्टर्स गराज) is a top-rated 5.0★ Flagship Garage for Bikes & Superbikes in Porvorim, Goa. Meticulous bike servicing, OBD diagnostics, brake service, chain & sprocket, and suspension overhauls. Located at Bay 9, Alcon Regency, Defence Colony, Porvorim, Goa. Call +91 86684 12375.",
   keywords: [
     "RoadCrafters Garage",
     "रोडक्राफ्टर्स गराज",
-    "High-Performance Machine Garage",
-    "Machine Service Goa",
-    "Porvorim Machine Garage",
+    "Bike Service Goa",
+    "Superbike Garage Goa",
+    "Bike Repair Porvorim",
     "Bike Diagnostics Goa",
+    "High-Performance Bike Garage",
     "Bay 9 Alcon Regency Porvorim",
     "Aradi Socorro Goa",
   ],
@@ -80,9 +73,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${sansFont.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}

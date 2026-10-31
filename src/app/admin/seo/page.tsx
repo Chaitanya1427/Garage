@@ -18,29 +18,29 @@ const PAGE_OPTIONS = [
 
 const DEFAULT_SEO: Record<string, { title: string; desc: string; keywords: string }> = {
   "/": {
-    title: "RoadCrafters Garage (रोडक्राफ्टर्स गराज) | Flagship Machine Garage in Porvorim, Goa",
-    desc: "RoadCrafters Garage is a top-rated 5.0★ Flagship Machine Garage in Porvorim, Goa. Meticulous servicing, OBD diagnostics, brake service, chain & suspension overhauls.",
-    keywords: "RoadCrafters Garage, Machine Garage, Porvorim Garage, Machine Diagnostics Goa",
+    title: "RoadCrafters Garage (रोडक्राफ्टर्स गराज) | Flagship Bike & Superbike Garage in Porvorim, Goa",
+    desc: "RoadCrafters Garage is a top-rated 5.0★ Flagship Bike Garage in Porvorim, Goa. Meticulous servicing, OBD diagnostics, brake service, chain & suspension overhauls.",
+    keywords: "RoadCrafters Garage, Bike Garage, Porvorim Garage, Bike Diagnostics Goa, Superbike Service Goa",
   },
   "/services": {
-    title: "High-Performance Machine Repair & Maintenance Services | RoadCrafters Garage Porvorim",
-    desc: "Comprehensive machine servicing, synthetic engine oil replacements, brake disc refacing, OBD fault scanning, and full suspension tuning in Goa.",
-    keywords: "Machine services Goa, high-performance engine oil, OBD scan machine, brake overhaul",
+    title: "High-Performance Bike Repair & Maintenance Services | RoadCrafters Garage Porvorim",
+    desc: "Comprehensive bike servicing, synthetic engine oil replacements, brake disc refacing, OBD fault scanning, and full suspension tuning in Goa.",
+    keywords: "Bike services Goa, high-performance engine oil, OBD scan bike, brake overhaul, superbike repair",
   },
   "/about": {
-    title: "About RoadCrafters Garage | Expert Machine Technicians in Goa",
-    desc: "Founded in 2018, RoadCrafters Garage combines master craftsmanship with state-of-the-art diagnostic technology for high-performance machines.",
-    keywords: "About RoadCrafters, machine technicians Porvorim, machine garage Goa",
+    title: "About RoadCrafters Garage | Expert Bike Technicians in Goa",
+    desc: "RoadCrafters Garage combines master craftsmanship with state-of-the-art diagnostic technology for performance bikes and superbikes.",
+    keywords: "About RoadCrafters, bike technicians Porvorim, bike garage Goa",
   },
   "/resources": {
-    title: "Machine Engineering Resources & Specifications | RoadCrafters Garage",
+    title: "Bike Engineering Resources & Specifications | RoadCrafters Garage",
     desc: "Factory-calibrated maintenance intervals, cold tyre pressure standards, interactive 32-point pre-ride checklist, and OBD diagnostic guides.",
-    keywords: "Machine maintenance schedule, tyre pressure chart, motorcycle pre-ride checklist, OBD fault codes Goa",
+    keywords: "Bike maintenance schedule, tyre pressure chart, bike pre-ride checklist, OBD fault codes Goa",
   },
   "/contact": {
     title: "Contact Technical Support & Appointments | RoadCrafters Garage",
-    desc: "Book a machine service bay or talk to our lead technicians. Located in Porvorim, Goa. Direct WhatsApp & Call: +91 86684 12375.",
-    keywords: "Contact RoadCrafters, book machine appointment Goa, WhatsApp machine repair",
+    desc: "Book a bike service bay or talk to our lead technicians. Located in Porvorim, Goa. Direct WhatsApp & Call: +91 86684 12375.",
+    keywords: "Contact RoadCrafters, book bike appointment Goa, WhatsApp bike repair",
   },
 };
 

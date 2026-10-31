@@ -51,7 +51,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-[#D4C4A8] max-w-md leading-relaxed">
-              Independent high-performance machine service and diagnostic garage dedicated to meticulous mechanical craftsmanship, OBD diagnostics, chain sync, and transparent pricing for riders.
+              Independent high-performance bike service and diagnostic garage dedicated to meticulous mechanical craftsmanship, OBD diagnostics, chain sync, and transparent pricing for riders.
             </p>
             <div className="pt-2 text-xs text-[#D4C4A8] space-y-2">
               <a

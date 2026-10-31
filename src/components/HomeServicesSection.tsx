@@ -30,7 +30,7 @@ export default function HomeServicesSection() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <SectionHeading
-        eyebrow="MACHINE SPECIALTIES"
+        eyebrow="BIKE SPECIALTIES"
         title="Bespoke Care. Comprehensive Capability."
         subtitle="From periodic maintenance to ECU diagnostics, chain sync, and fork servicing, every job is performed to exacting standards."
       />
@@ -46,7 +46,7 @@ export default function HomeServicesSection() {
           href="/services"
           className="inline-flex items-center text-xs font-semibold uppercase tracking-widest text-[#1F1B14] hover:text-[#C5A059] border-b border-[#1F1B14] pb-1 transition-colors"
         >
-          View All {displayServices.length} Specialized Machine Services
+          View All {displayServices.length} Specialized Bike Services
           <ArrowRight className="w-4 h-4 ml-2 text-[#C5A059]" />
         </Link>
       </div>

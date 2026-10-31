@@ -85,7 +85,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     slug: "periodic-service",
     title: "Periodic Maintenance Service",
     shortDesc: "Comprehensive factory-scheduled servicing following precise manufacturer guidelines, Motul ester synthetic fluids, and a 32-point rider safety checklist.",
-    fullDesc: "Regular maintenance is the foundation of peak machine performance and mechanical longevity. Our Periodic Service covers exact OEM specs for street, sport, cruiser, and adventure bikes—keeping your engine smooth, responsive, and warranty protected.",
+    fullDesc: "Regular maintenance is the foundation of peak bike performance and mechanical longevity. Our Periodic Service covers exact OEM specs for street, sport, cruiser, and adventure bikes—keeping your engine smooth, responsive, and warranty protected.",
     category: "machine",
     estimatedTime: "2 - 3 Hours",
     startingPrice: "₹1,800",
@@ -96,21 +96,21 @@ export const SERVICES_DATA: ServiceItem[] = [
       "32-point Rider Safety & Torque audit",
       "Drive chain tensioning, ultrasonic cleaning & lube",
       "Spark plug gap audit & throttle sync check",
-      "Digital machine service ledger update"
+      "Digital bike service ledger update"
     ],
     processSteps: [
-      { step: "01", title: "Paddock Stand Elevation", desc: "Mount machine on paddock stands for full chassis inspection." },
+      { step: "01", title: "Paddock Stand Elevation", desc: "Mount bike on paddock stands for full chassis inspection." },
       { step: "02", title: "Sump Drain & Filter Change", desc: "Evacuate hot engine oil and clean magnetic sump drain bolt." },
       { step: "03", title: "Precision Refill & Chain Sync", desc: "Refill to exact c.c. capacity and adjust chain slack." },
-      { step: "04", title: "Technician Test Ride", desc: "Road test by a master machine technician." }
+      { step: "04", title: "Technician Test Ride", desc: "Road test by a master bike technician." }
     ]
   },
   {
     id: "engine-diagnostics",
     slug: "engine-diagnostics",
-    title: "Machine Engine Diagnostics",
+    title: "Bike Engine Diagnostics",
     shortDesc: "Computer OBD diagnostic scans, fuel injection mapping, sensor telemetry trace, and electronic ignition troubleshooting.",
-    fullDesc: "Modern high-performance machines feature sophisticated ECU ignition and EFI systems. When a check engine light illuminates or throttle response stutters, our diagnostic engineers use dedicated electronic diagnostic rigs to pinpoint anomalies without guesswork.",
+    fullDesc: "Modern performance bikes feature sophisticated ECU ignition and EFI systems. When a check engine light illuminates or throttle response stutters, our diagnostic engineers use dedicated electronic diagnostic rigs to pinpoint anomalies without guesswork.",
     category: "machine",
     estimatedTime: "1 - 1.5 Hours",
     startingPrice: "₹1,200",
@@ -124,7 +124,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Fault code memory clear upon resolution"
     ],
     processSteps: [
-      { step: "01", title: "OBD Interface Connection", desc: "Plug diagnostic interface into main machine harness." },
+      { step: "01", title: "OBD Interface Connection", desc: "Plug diagnostic interface into main bike harness." },
       { step: "02", title: "Live Telemetry Analysis", desc: "Monitor real-time AFR, manifold pressure, and coolant temp." },
       { step: "03", title: "Sensor Physical Audit", desc: "Verify electronic readings with physical gauge checks." },
       { step: "04", title: "Action Plan", desc: "Clear transparent quote provided before proceeding." }
@@ -135,7 +135,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     slug: "brake-service",
     title: "Brake System & Caliper Service",
     shortDesc: "Complete hydraulic brake system overhaul, Brembo/Nissin pad fitment, rotor thickness measurement, and DOT 4 pressure bleeding.",
-    fullDesc: "Your machine's braking system is your primary life safety system. We perform full caliper disassembly, slider pin degreasing, high-friction ceramic or sintered pad fitment, and hydraulic pressure flushing to guarantee precise lever feel.",
+    fullDesc: "Your bike's braking system is your primary life safety system. We perform full caliper disassembly, slider pin degreasing, high-friction ceramic or sintered pad fitment, and hydraulic pressure flushing to guarantee precise lever feel.",
     category: "machine",
     estimatedTime: "1.5 Hours",
     startingPrice: "₹1,500",
@@ -185,7 +185,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     slug: "suspension-service",
     title: "Front Fork & Rear Suspension Service",
     shortDesc: "Telescopic & USD fork seal replacement, damping fluid refresh, rear shock linkage lube, and rider sag setup.",
-    fullDesc: "Proper suspension tuning transforms cornering confidence and ride stability. We service front upside-down (USD) and conventional forks with OEM seals and Motul fork oil, plus adjust preload and rebound dampening for your weight.",
+    fullDesc: "Proper suspension tuning transforms cornering confidence and ride stability on your bike. We service front upside-down (USD) and conventional forks with OEM seals and Motul fork oil, plus adjust preload and rebound dampening for your weight.",
     category: "specialist",
     estimatedTime: "3 Hours",
     startingPrice: "₹2,800",
@@ -211,14 +211,14 @@ export const SERVICES_DATA: ServiceItem[] = [
     slug: "tyres-wheels",
     title: "Tyres & Wheel Balancing",
     shortDesc: "Pirelli, Metzeler, Michelin tyre fitment, dynamic wheel balancing, spoke tensioning, and valve replacement.",
-    fullDesc: "Your tires are the only contact patch between your machine and the tarmac. We mount premium performance tires using scratch-free rim clamps, replace tubeless valves, and dynamically balance wheels for high-speed smoothness.",
+    fullDesc: "Your tires are the only contact patch between your bike and the tarmac. We mount premium performance tires using scratch-free rim clamps, replace tubeless valves, and dynamically balance wheels for high-speed smoothness.",
     category: "machine",
     estimatedTime: "1 Hour",
     startingPrice: "₹900",
     image: "/services/tyres-wheels.jpg",
     features: [
       "Scratch-free tyre mounting on precision pneumatic tyre machine",
-      "Dynamic wheel balancing on precision machine spindle",
+      "Dynamic wheel balancing on precision spindle",
       "Rim true & spoke tension check for spoked wheels",
       "High-pressure right-angle valve stem replacement",
       "Wheel bearing play & dust seal inspection",
@@ -236,7 +236,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     slug: "battery-electrical",
     title: "Battery & Electrical System Audit",
     shortDesc: "AGM/Gel battery conductance test, stator output voltage audit, starter motor relay service, and auxiliary light wiring.",
-    fullDesc: "Electrical failures on a machine leave you stranded. We test battery CCA health under starter load, verify alternator stator output across RPMs, and repair corroded wiring harnesses or auxiliary accessories.",
+    fullDesc: "Electrical failures on a bike leave you stranded. We test battery CCA health under starter load, verify alternator stator output across RPMs, and repair corroded wiring harnesses or auxiliary accessories.",
     category: "machine",
     estimatedTime: "1 Hour",
     startingPrice: "₹700",
@@ -349,7 +349,7 @@ export const GARAGE_FEATURES: GarageFeature[] = [
   },
   {
     id: "diagnostics",
-    title: "Dedicated Machine OBD Diagnostic Rig",
+    title: "Dedicated Bike OBD Diagnostic Rig",
     subtitle: "Official OEM software for European & Global Bikes",
     description: "We utilize specialized diagnostic software to interface directly with ECU electronics on Ducati, BMW Motorrad, Triumph, KTM, Royal Enfield, and Japanese brands.",
     image: "/garage_photos/suspension-overhaul-bay.jpg"
@@ -380,7 +380,7 @@ export const LOCATIONS_DATA: LocationItem[] = [
     email: "contact@roadcraftersgarage.com",
     hours: "Open — Closes at 10:00 PM",
     facilities: [
-      "Flagship Machine Garage",
+      "Flagship Bike Garage",
       "OBD Diagnostic Scans",
       "Customer First Service",
       "Hydraulic Lifts & Tuning",
@@ -459,37 +459,37 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const FAQ_DATA: FAQItem[] = [
   {
-    question: "Do I need to schedule an appointment for machine servicing?",
-    answer: "We recommend booking your service appointment in advance so we can reserve a dedicated machine lift bay and ensure OEM filters and fluids are ready for your specific model.",
+    question: "Do I need to schedule an appointment for bike servicing?",
+    answer: "We recommend booking your service appointment in advance so we can reserve a dedicated bike lift bay and ensure OEM filters and fluids are ready for your specific model.",
     category: "General"
   },
   {
-    question: "How long does a standard periodic machine service take?",
+    question: "How long does a standard periodic bike service take?",
     answer: "A standard periodic service along with our 32-point rider safety audit typically takes 2 to 3 hours. If additional repairs or parts are required, your advisor will send a digital estimate before proceeding.",
     category: "Service"
   },
   {
-    question: "Do you offer doorstep pickup and drop-off for machines?",
-    answer: "Yes! We operate specialized machine transport vans equipped with wheel chocks and soft tie-down straps to safely pick up and deliver your machine within a 15 km radius.",
+    question: "Do you offer doorstep pickup and drop-off for bikes?",
+    answer: "Yes! We operate specialized transport vans equipped with wheel chocks and soft tie-down straps to safely pick up and deliver your bike within a 15 km radius.",
     category: "Convenience"
   },
   {
-    question: "Will servicing at Road Crafters Garage void my manufacturer warranty?",
-    answer: "No. Servicing your machine at a certified independent facility using OEM-compliant parts and approved JASO MA2 synthetic oils does NOT void your manufacturer warranty.",
+    question: "Will servicing at RoadCrafters Garage void my manufacturer warranty?",
+    answer: "No. Servicing your bike at a certified independent facility using OEM-compliant parts and approved JASO MA2 synthetic oils does NOT void your manufacturer warranty.",
     category: "Warranty"
   },
   {
-    question: "Do you provide a warranty on machine repairs and parts?",
-    answer: "Yes, all mechanical repairs and OEM replacement components installed by Road Crafters Garage carry a comprehensive 12-Month or 10,000 km warranty covering both parts and labor.",
+    question: "Do you provide a warranty on bike repairs and parts?",
+    answer: "Yes, all mechanical repairs and OEM replacement components installed by RoadCrafters Garage carry a comprehensive 12-Month or 10,000 km warranty covering both parts and labor.",
     category: "Warranty"
   },
   {
-    question: "Which categories of machines do you service?",
-    answer: "We service all high-performance machine categories including sport machines, cruisers, naked roadsters, adventure tourers, and premium scooters—ranging from everyday riders to 1000cc+ superbikes.",
+    question: "Which bikes do you service?",
+    answer: "We service all bike categories—from daily street commuters (100cc–200cc) and cruisers like Royal Enfield to sport bikes, naked roadsters, adventure tourers, and 1000cc+ superbikes.",
     category: "Services"
   },
   {
-    question: "Do you handle custom machine engineering or fork rebuilding?",
+    question: "Do you handle custom bike engineering or fork rebuilding?",
     answer: "Yes. Our garage features specialized fork seal driver kits, rear shock linkage press tools, and dedicated diagnostic rigs for deep mechanical overhauls.",
     category: "Specialist"
   }
@@ -581,7 +581,7 @@ export const REVIEWS_DATA: ReviewItem[] = [
     badge: "Activa Owner",
     date: "a month ago",
     rating: 5,
-    comment: "Best garage in porvorim after service my scooty activa running smoothly thanks roadcrafters garage"
+    comment: "Best garage in porvorim after service my Activa is running smoothly thanks roadcrafters garage"
   },
   {
     id: "rev-10",
